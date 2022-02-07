@@ -1,4 +1,4 @@
 PyAT-functions
 --------------
 
-This is a toolkit for particle accelerator simulation still under development.
+This is a toolkit for particle accelerators simulations implemented with PyAT still under development.
