@@ -1,0 +1,70 @@
+\documentclass[12pt]{article} 
+\usepackage[a4paper, total={6in, 8in}]{geometry}	
+
+\title{\textbf{Project description:} \\
+\vspace{0.5cm} 
+Beam orbit stability control in modern synchrotron light source facilities}
+\author{Juan Gutiérrez Navarro}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+
+\section{Introduction and problem statement}
+A Synchrotron light source is a type of x-ray source based on an electron storage ring.
+
+At DESY in Hamburg, the PETRA IV project is upgrading the third-generation light source PETRA III to a fourth-generation light source  with ultra-low emittance in order to reach the diffraction limit. Synchrotron light sources  are used for scientific and technical purposes. The applicability of this technology extends  across a wide range of scientific disciplines, such as physics, chemistry, biology, materials  science, medicine, environmental science, and nanotechnology \cite{Schroer:426140}. 
+
+Synchrotron light storage rings are designed to achieve very small electron beam sizes. This 
+allows synchrotron radiation to be as bright as possible. It is necessary to maintain tight 
+tolerances in electron beam stability to make use of these small beam sizes. To achieve 
+such stability, closed orbit control is important in the design and operation of light sources. 
+Electron orbit fluctuations increase electron beam size and degrade photon beam brightness, while slower orbit deviations require frequent realignment of experiments at the end of photon beam lines \cite{Safranek:1999fr}. 
+
+Beam stability is one of the most important requirements in synchrotron light sources. Ambient vibrations and electrical noise cause orbit distortions which have to be counteracted 
+by an orbit feedback \cite{sahoo2004closed}. In the case of PETRA IV, it will have a fast orbital feedback system (FOFB), with more than 700 beam position monitors and about 200 fast correctors \cite{Schroer:426140}.
+
+The general objective of this work is to analyze the perturbations of the storage ring and simulate their effect on the feedback system.
+For this purpose, it will be first necessary to implement a model of the particle motion through the lattice with a  feedback system that keeps the trajectory within tolerable margins. Then, the model of the expected perturbations with the data obtained from seismic measurements at the ring will be included. And finally the performance of the feedback system will be evaluated.
+
+\section{Objectives}
+
+The objetives of the work are:
+\begin{itemize}
+    \item Create a software infrastructure in Python, with tools for the implementation of subsequent simulations of particle accelerators. For this purpose, new functionalities will be implemented with the pyAT library. The necessary documentation will be prepared to make the infrastructure available to other users.      
+    \item Identify expected disturbances. This will include experimental work on seismic measurements, data evaluation as well as analysis of pre-existing seismic data.
+    \item The data obtained in the previous step, will be input into the simulation model of the feedback system and the effect of perturbations analysed.
+\end{itemize}
+
+\section{Methodology and work plan}
+
+The work will be done on an adjustable schedule according to class hours. There will be a weekly meeting with the DESY tutors in which the progress of the project and next steps will be discussed.
+
+The project will be divided into the following 4 stages, and the duration of each one has been estimated:
+
+\begin{enumerate}
+    \item Familiarization with accelerator physics and feedback concepts (from November 2021 to February 2022). The objective of this phase is to obtain the necessary theoretical knowledge in particle accelerator physics, machine operation and control system theory for the further development of the project. It also includes familiarization with the software for modeling storage rings and beam transport lines.
+    \item Analysis of error sources at PETRA IV facilities (from February to the end of March). This more practical phase is expected to carry out seismic measurements on the ring to measure the transfer functions from the vibration source to the beam.
+    \item Simulation of PETRA systems (from April to the end of May). Simulations will be used to study the effect of disturbances in the feedback system.
+    \item Documentation preparation (June).
+\end{enumerate}
+
+\section{Resources}
+This is the list of resources estimated to be necessary to carry out this work:
+\begin{itemize}
+    \item Laptop.
+    \item Python as a programming language.
+    \item Accelerator Toolbox using its Python interface (pyAT).
+    \item Hardware and software necessary to perform seismic measurements on the ring provided by DESY.
+    \item Books and papers related to the topic.
+\end{itemize}
+
+\pagebreak
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}

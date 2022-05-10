@@ -1,0 +1,30 @@
+# Fdb version 3
+["bibtex main"] 1650306559 "main.aux" "main.bbl" "main" 1650306569
+  "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
+  "main.aux" 1650306571 692 eea07b786ad0fbc7bb028beabc1fc283 "pdflatex"
+  "references.bib" 1645467400 2186 ef801c0c10ebd92835bcb6bafe5adf3b ""
+  (generated)
+  "main.blg"
+  "main.bbl"
+["pdflatex"] 1650306568 "/media/sf_Universidad/TFM/Text/Project description/main.tex" "/media/sf_Universidad/TFM/Text/Project description/main.pdf" "main" 1650306569
+  "/home/jgnav/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk" 1650306559 14040 fd84d8a24635b524428efccb9d3adbe7 ""
+  "/media/sf_Universidad/TFM/Text/Project description/main.aux" 1650306571 692 eea07b786ad0fbc7bb028beabc1fc283 ""
+  "/media/sf_Universidad/TFM/Text/Project description/main.tex" 1650306570 4964 0bbd580b43002c98bef5c5f87fbeb0f1 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1248133631 36118 fad905eba93cff5bce1e185fe980a177 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty" 1583617216 6501 4011d89d9621e0b0901138815ba5ff29 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty" 1572645307 1057 525c2192b5febbd8c1f662c9468335bb ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1601675358 20145 aad8c3dd3bc36e260347b84002182bc2 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo" 1601675358 8450 6fd3588c0e9d06f6f56c6cf4f7246466 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
+  "/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty" 1580683321 2590 e3b24ff953e5b58d924f163d25380312 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1611959857 27097 58278863d97b10ab86e334b8da33df7a ""
+  "main.aux" 1650306571 692 eea07b786ad0fbc7bb028beabc1fc283 "pdflatex"
+  "main.bbl" 1650306562 718 eed58bdac3aab4b39d544b63970a4d56 "bibtex main"
+  "main.tex" 1650306570 4964 0bbd580b43002c98bef5c5f87fbeb0f1 ""
+  (generated)
+  "/media/sf_Universidad/TFM/Text/Project description/main.log"
+  "/media/sf_Universidad/TFM/Text/Project description/main.pdf"
+  "main.aux"
