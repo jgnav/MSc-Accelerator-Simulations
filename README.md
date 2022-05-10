@@ -1,4 +1,4 @@
-MSc-Accelerator-Simulations
----------------------------
+Beam orbit stability control in modern synchrotron light source facilities
+--------------------------------------------------------------------------
 
-This is a toolkit for particle accelerators simulations implemented with PyAT still under development.
+
