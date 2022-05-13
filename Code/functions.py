@@ -90,8 +90,9 @@ def apply_f(numx, denx, u, x, Ts):
         elif u.shape[1] != 1:
             u = u.T
 
-    A_t, B_t, C_t, D_t = signal.tf2ss(numx, denx)
-    (A, B, C, D, _) = signal.cont2discrete((A_t, B_t, C_t, D_t), Ts, method='bilinear')
+    A, B, C, D = signal.tf2ss(numx, denx)
+    # A_t, B_t, C_t, D_t = signal.tf2ss(numx, denx)
+    # (A, B, C, D, _) = signal.cont2discrete((A_t, B_t, C_t, D_t), Ts, method='bilinear')
     
     A = np.kron(np.eye(u.size), A)
     B = np.kron(np.eye(u.size), B)
@@ -144,3 +145,28 @@ def PID_transfer_function(Kp = 0, Ki = 0, Kd = 0):
 
     num_pid, den_pid = poly_from_sympy(G, symbol='s')
     return num_pid, den_pid
+
+def real_perturbation(t):
+    N = t.size
+    Fs = 1/(t[1]-t[0])
+    freqs = np.fft.fftfreq(N, 1/Fs)
+    freqs_half = freqs[:N//2+1]
+    cm_fft = 5*np.random.random(N//2+1)*np.exp(1j*2*np.pi*np.random.random(N//2+1))
+
+    idxmin = np.argmin(abs(freqs_half - 9))
+    idx20 = np.argmin(abs(freqs_half - 20))
+    for k in range(idxmin, idx20):
+        cm_fft[k] = 0.1*cm_fft[k]*(5 - (freqs_half[k] - 11)*(freqs_half[k] - 20))
+
+    nprand = np.random.random
+    cmph10 = 2*np.pi*nprand()
+    cm_fft[np.argmin(abs(freqs_half - 0))] = 0
+    cm_fft[np.argmin(abs(freqs_half - 10))] = 20*np.exp(1j*cmph10)
+    cm_fft[np.argmin(abs(freqs_half - 50))] = 30*np.exp(1j*2*np.pi*nprand())
+    cm_fft[-1] = 0
+
+    cm_fft = np.concatenate((cm_fft[:-1], np.flipud(cm_fft.conjugate())[:-1]))
+    cm_fft *= N/2/np.max(np.abs(cm_fft))
+    cm = np.fft.ifft(cm_fft).real
+
+    return cm
