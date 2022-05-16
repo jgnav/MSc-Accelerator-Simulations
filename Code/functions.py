@@ -90,9 +90,9 @@ def apply_f(numx, denx, u, x, Ts):
         elif u.shape[1] != 1:
             u = u.T
 
-    A, B, C, D = signal.tf2ss(numx, denx)
-    # A_t, B_t, C_t, D_t = signal.tf2ss(numx, denx)
-    # (A, B, C, D, _) = signal.cont2discrete((A_t, B_t, C_t, D_t), Ts, method='bilinear')
+    # A, B, C, D = signal.tf2ss(numx, denx)
+    A_t, B_t, C_t, D_t = signal.tf2ss(numx, denx)
+    (A, B, C, D, _) = signal.cont2discrete((A_t, B_t, C_t, D_t), Ts, method='bilinear')
     
     A = np.kron(np.eye(u.size), A)
     B = np.kron(np.eye(u.size), B)
