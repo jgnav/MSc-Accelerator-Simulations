@@ -1,0 +1,21 @@
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction to particle accelerators}{2}{section.15}%
+\contentsline {subsection}{\numberline {1.1}How Particle Accelerators Works}{2}{subsection.16}%
+\contentsline {subsection}{\numberline {1.2}Particle-Beam Dynamics}{2}{subsection.17}%
+\contentsline {subsubsection}{\numberline {1.2.1}Charged Particles in an Electromagnetic Field}{2}{subsubsection.18}%
+\contentsline {subsubsection}{\numberline {1.2.2}Equation of Motion}{2}{subsubsection.19}%
+\contentsline {subsubsection}{\numberline {1.2.3}Beam Steering Magnets}{2}{subsubsection.20}%
+\contentsline {subsubsection}{\numberline {1.2.4}Particle Trajectories and Transfer Matrices}{2}{subsubsection.21}%
+\contentsline {subsubsection}{\numberline {1.2.5}Dispersion and Momentum Compaction Factor}{2}{subsubsection.22}%
+\contentsline {subsubsection}{\numberline {1.2.6}Beta Function and Betatron Oscillation}{2}{subsubsection.23}%
+\contentsline {subsubsection}{\numberline {1.2.7}Tune and Optical Resonances}{2}{subsubsection.24}%
+\contentsline {subsubsection}{\numberline {1.2.8}Chromaticity of Beam Optics and its Compesation}{3}{subsubsection.25}%
+\contentsline {subsection}{\numberline {1.3}Summary}{3}{subsection.26}%
+\contentsline {section}{\numberline {2}Orbit correction}{4}{section.27}%
+\contentsline {subsection}{\numberline {2.1}Fast Orbit feedback}{4}{subsection.28}%
+\contentsline {section}{\numberline {3}System and correction simulation}{5}{section.29}%
+\contentsline {subsection}{\numberline {3.1}Feedback structure}{5}{subsection.30}%
+\contentsline {subsection}{\numberline {3.2}Noise model (correlation)}{5}{subsection.31}%
+\contentsline {subsection}{\numberline {3.3}Performance system modelling}{5}{subsection.32}%
+\contentsline {section}{\numberline {4}Conclusion and Outlook}{6}{section.33}%

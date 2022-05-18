@@ -1,0 +1,36 @@
+ % Project description
+\def\projectdescription{
+	A Synchrotron light source is a type of x-ray source based on an electron storage ring.
+
+	At DESY in Hamburg, the PETRA IV project is upgrading the third-generation light source PETRA III to a fourth-generation light source with ultra-low emittance in order to reach the diffraction limit.
+	Synchrotron light sources are used for scientific and technical purposes.
+	The applicability of this technology extends across a wide range of scientific disciplines, such as physics, chemistry, biology, materials science, medicine, environmental science, and nanotechnology [1].
+
+	Synchrotron light storage rings are designed to achieve very small electron beam sizes.
+	This allows synchrotron radiation to be as bright as possible.
+	It is necessary to maintain tight tolerances in electron beam stability to make use of these small beam sizes.
+	To achieve such stability, closed orbit control is important in the design and operation of light sources.
+	Electron orbit fluctuations increase electron beam size and degrade photon beam brightness, while slower orbit deviations require frequent realignment of experiments at the end of photon beam lines [2].
+
+	Beam stability is one of the most important requirements in synchrotron light sources.
+	Ambient vibrations and electrical noise cause orbit distortions which have to be counteracted by an orbit feedback [3].
+	In the case of PETRA IV, it will have a fast orbital feedback system (FOFB), with more than 700 beam position monitors and about 200 fast correctors [1].
+
+	The general objective of this work is to analyze the perturbations of the storage ring and simulate their effect on the feedback system.
+	For this purpose, it will be first necessary to implement a model of the particle motion through the lattice with feedback system that keeps the trajectory within tolerable margins.
+	Then, a model of the expected perturbations with the data obtained from seismic measurements at the ring will be include,
+	And finally the performance of the feedback system will be evaluated.
+	}
+
+ % Project tasks
+\def\tasks{
+\begin{packedenumerate}
+	\item Literature review
+	\item Create a software infrastructure in Python, with tools for the implementation of subsequent simulations of particle accelerators.
+	For this purpose, new functionalities will be implemented with the pyAT library.
+	The necessary documentation will be prepared to make the infrastructure available to other users.
+	\item Identify the expected sources of disturbance.
+	This will include experimental work on seismic measurements, data evaluation as well as analysis of pre-existing seismic data.
+	\item The data obtained in the previous step, will be input into the simulation model of the feedback system and the effect of perturbations analyzed.
+\end{packedenumerate}
+}
