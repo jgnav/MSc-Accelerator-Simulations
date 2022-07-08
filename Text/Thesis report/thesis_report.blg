@@ -1,13 +1,19 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
-[1] Config.pm:310> INFO - Logfile is 'thesis_report.blg'
-[488] biber-MSWIN64:340> INFO - === 
-[625] Biber.pm:418> INFO - Reading 'thesis_report.bcf'
-[1279] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[1280] Biber.pm:972> INFO - Found 0 citekeys in bib section 1
-[1281] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[1282] Biber.pm:972> INFO - Found 0 citekeys in bib section 2
-[1283] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[1454] bbl.pm:654> INFO - Writing 'thesis_report.bbl' with encoding 'UTF-8'
-[1455] bbl.pm:757> INFO - Output to thesis_report.bbl
-[1457] Biber.pm:130> WARN - The file 'thesis_report.bcf' does not contain any citations!
-[1457] Biber.pm:132> INFO - WARNINGS: 1
+[0] Config.pm:310> INFO - Logfile is 'thesis_report.blg'
+[465] biber-MSWIN64:340> INFO - === 
+[664] Biber.pm:418> INFO - Reading 'thesis_report.bcf'
+[1096] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[1097] Biber.pm:972> INFO - Found 0 citekeys in bib section 1
+[1097] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[1098] Biber.pm:972> INFO - Found 12 citekeys in bib section 2
+[1098] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[1184] Biber.pm:4383> INFO - Processing section 2
+[1220] Biber.pm:4574> INFO - Looking for bibtex file 'ics.bib' for section 2
+[1352] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1421] bibtex.pm:1518> INFO - Found BibTeX data source 'ics.bib'
+[1677] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1678] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1678] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1678] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[1710] bbl.pm:654> INFO - Writing 'thesis_report.bbl' with encoding 'UTF-8'
+[1728] bbl.pm:757> INFO - Output to thesis_report.bbl

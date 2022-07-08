@@ -2,6 +2,7 @@ import numpy as np
 import at
 from scipy import signal
 import sympy as sp
+import matplotlib.pyplot as plt
 
 def response_matrices(lat, dkick, offset, read = 0):
     # Obtaining Ids
@@ -11,43 +12,70 @@ def response_matrices(lat, dkick, offset, read = 0):
 
     if read:
         # Read from file
-        A = np.loadtxt('rings/A.out')
-        B = np.loadtxt('rings/B.out')
+        Q_x = np.loadtxt('rings/Q_x.txt')
+        Q_y = np.loadtxt('rings/Q_y.txt')
+        R_x = np.loadtxt('rings/R_x.txt')
+        R_y = np.loadtxt('rings/R_y.txt')
 
     else: 
         # Matrix calculation
-        a = []
+        a_x = []
+        a_y = []
         for quad in quad_ids:
-            at.shift_elem(lat[quad], deltax=offset, deltaz=0.0, relative=False)
+            at.shift_elem(lat[quad], deltax = offset, deltaz = 0.0, relative = False)
             orbit0, orbit = at.find_orbit(lat, refpts = bpm_ids)
             x = orbit[:,0]
             y = orbit[:,2]
-            at.shift_elem(lat[quad], deltax=0.0, deltaz=0.0, relative=False)
-            a.append(x)
-        A = np.squeeze(a) / dkick
+            at.shift_elem(lat[quad], deltax = 0.0, deltaz = 0.0, relative = False)
+            a_x.append(x)
 
-        b = []
+        for quad in quad_ids:
+            at.shift_elem(lat[quad], deltax = 0.0, deltaz = offset, relative = False)
+            orbit0, orbit = at.find_orbit(lat, refpts = bpm_ids)
+            x = orbit[:,0]
+            y = orbit[:,2]
+            at.shift_elem(lat[quad], deltax = 0.0, deltaz = 0.0, relative = False)
+            a_y.append(y)
+
+        Q_x = np.squeeze(a_x) / dkick
+        Q_y = np.squeeze(a_y) / dkick
+
+        b_x = []
+        b_y = []
         for cor in cor_ids:
             lat[cor].KickAngle = [dkick, 0.00]
             orbit0, orbit = at.find_orbit(lat, refpts = bpm_ids)
             x = orbit[:,0]
             y = orbit[:,2]
             lat[cor].KickAngle = [0, 0.00]
-            b.append(x)
-        B = np.squeeze(b) / dkick
+            b_x.append(x)
+
+        for cor in cor_ids:
+            lat[cor].KickAngle = [0.00, dkick]
+            orbit0, orbit = at.find_orbit(lat, refpts = bpm_ids)
+            x = orbit[:,0]
+            y = orbit[:,2]
+            lat[cor].KickAngle = [0, 0.00]
+            b_y.append(y)
+
+        R_x = np.squeeze(b_x) / dkick
+        R_y = np.squeeze(b_y) / dkick
 
         # Results to a file
-        np.savetxt('rings/A.out', A, fmt='%1.20f')
-        np.savetxt('rings/B.out', B, fmt='%1.20f')
+        np.savetxt('rings/Q_x.txt', Q_x, fmt='%1.20f')
+        np.savetxt('rings/Q_y.txt', Q_y, fmt='%1.20f')
+        np.savetxt('rings/R_x.txt', R_x, fmt='%1.20f')
+        np.savetxt('rings/R_y.txt', R_y, fmt='%1.20f')
 
-    return A, B
+    return Q_x, Q_y, R_x, R_y
 
-def svd_solve(A, nsv):
+def svd_solve(A, nsv, plot = False):
     u, s, v = np.linalg.svd(A, full_matrices=False)
     sinv = 1./s
     sinv[nsv:] = 0
     Ainv = np.dot(v.transpose(), np.dot(np.diag(sinv), u.transpose()))
-    return Ainv
+
+    return Ainv, sinv
 
 def change_magnets_alignment(lat, ma):
     quad_ids = at.get_refpts(lat, at.elements.Quadrupole)

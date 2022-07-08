@@ -1,30 +1,71 @@
 \section{Introduction to particle accelerators} % Part 1
 
-This chapter will introduce the basic principles of the operation of a particle accelerator
-and its main components. In the second part, it will be introduced the particle beam steering
-from a linear beam optics approach.
+This chapter will introduce the basic principles of the operation of a particle accelerator and its main components. In the second part, it will be introduced the particle beam steering from a linear beam optics approach.
 
-\subsection{How Particle Accelerators Works} % Part 1.1
+\subsection{How Particle Accelerators Work} % Part 1.1
 
-To complete
+% Circular accelerators are based on the use of magnetic fields to guide the charged particles along a closed orbit. 
+
+% A beam is generated in a dedicated source, preaccelerated in linear and/or circular accelerators which are connected by beam transfer lines and finally either injected into a storage ring, guided through a series of alternating dipole magnets called ondulators.
+
+% -------------------------------------------
+% Circular accelerators are based on the use of magnetic fields to guide the charged particles along a closed orbit. 
+
+% A beam of charged particles is generated in a dedicated source,p preaccelerated in (often a series of linear and/or circular accelerators which are connected by beam transfer lines and finally either injected into a storage ring, guided through a series of alternating dipole magnets called undulators.
+
+% In order to guide the beam along its often curved path through the accelerators and beam transfer lines, it has to be deflected by dedicated devices acting on the individual beam particles, a process which is called beam bending. 
+
+% In fact, most particles of the beam will deviate slightly from this ideal path and therefore have to be repeatedly bend back towards the design orbit, a process which is called beam focusing.
 
 \subsection{Particle-Beam Dynamics} % Part 1.2
 
-To complete
+The interaction of charged particles with electromagnetic fields is called beam dynamics. In this section there will be an introduction to the linear approximation of these dynamics in which concepts needed in future sections will be defined.
 
 \subsubsection{Charged Particles in an Electromagnetic Field} % Part 1.2.1
 
-To complete
+The trajectory of charged particles is modified by electric and magnetic fields, through the Lorentz force
+\begin{equation} \label{e:1.1}
+  \vect{F} = q\vect{E} + q(\vect{v}\times\vect{B}).
+\end{equation}
+
+In equation \ref{e:1.1} the electric field is neglected because it is much more efficient to use magnetics fields to influence high-energy beams with a speed close to the speed of light. 
+
+To achieve a circular orbit it is necessary that the Lorentz force cancels the centrifugal force. Equating the two forces and assuming that the magnetic field is constant and  transverse, the following expression is obtained:
+\begin{equation}\label{e:1.2}
+  qvB = \frac{mv^2}{\rho}
+\end{equation}
+where $\rho$ is the radius of curvature of the trajectory, $q$ the charge of the particle  and $m$ is the particle mass.
+
+Dividing equation \ref{e:1.2} by the velocity and regrouping the terms yields:
+\begin{equation} \label{e:1.3}
+  B\rho = \frac{p}{q}
+\end{equation}
+where $p$ is the particle momentum and $B\rho$ is called beam rigidity \cite{holzer2014}.
+
+In the following, transverse magnetic fields will be classified in a general way by separating them into series of multipoles. The objective is to understand the effect of a given magnetic  field on the beam through the action of its different multipole components.
+
+A Cartesian coordinate system (x, y, z) will be introduced to describe the motion of the particle. The direction of the beam is parallel to the z-axis and the transverse plane will be denoted as the (x, y) plane. It will be assumed that the motion of the particles  are parallel to the z-axis and the magnetic field has only transverse components. 
+
+Because the transverse dimensions of the beam are small compared to the radius of curvature of the particle trajectory, the magnetic field can be expanded in the vicinity of the z-axis using Taylor series expansion
+\begin{equation} \label{e:1.4}
+  B_z(x) = {B_z}_0 + \frac{dB_z}{dx}x + \frac{1}{2!}\frac{d^2B_z}{dx^2}x^2 + \frac{1}{3!}\frac{d^3B_z}{dx^3}x^3 + ...
+\end{equation}
+
+Substituting \ref{e:1.4} in equation \ref{e:1.3}
+\begin{align} \label{e:1.5} % CAMBIAR MUY PARECIDO ***
+  B_z(x) &= \;\;\frac{q}{p}{B_z}_0\;\;+\;\;\frac{q}{p}\frac{dB_z}{dx}x\;\;+\;\;\frac{q}{p}\frac{1}{2!}\frac{d^2B_z}{dx^2}x^2\;\;+\;\;\frac{q}{p}\frac{1}{3!}\frac{d^3B_z}{dx^3}x^3\;\;+\;\;... \nonumber\\
+         &= \;\;\;\;\frac{1}{\rho}\;\;\;\;+\;\;\;\;\;\; kx \;\;\;\;\;+\;\;\;\;\;\;\frac{1}{2!}k'x^2\;\;\;\;\;\;+\;\;\;\;\;\;...\\
+         &  \;\;\;\;\;dipole\;\;\;\;\;quadrupole\;\;\;\;\;sextupole \nonumber
+\end{align}
+where k is the quadrupole strength.
+
+In equation \ref{e:1.5} it is observed that the magnetic field affecting the particle can be divided into different multipoles which have different effect on the particle path. The dipole have an effect on beam steering, the quadrupole on beam focusing and the sextupole on chromaticity compensation. If only the first two multipoles are considered we are in the field of linear optics since the bending forces are constant or increase linearly with the transverse displacement of the ideal trajectory \cite{wille2000physics}.
 
 \subsubsection{Equation of Motion} % Part 1.2.2
 
-To complete
+To complete 
 
 % The Twiss parameters α, β, γ
-
-\subsubsection{Beam Steering Magnets} % Part 1.2.3
-
-To complete
 
 \subsubsection{Particle Trajectories and Transfer Matrices} % Part 1.2.4
 
@@ -32,25 +73,21 @@ To complete
 
 % The FODO cell
 
-\subsubsection{Dispersion and Momentum Compaction Factor} % Part 1.2.5
-
-To complete
-
 \subsubsection{Beta Function and Betatron Oscillation} % Part 1.2.6
 
 To complete
 
-\subsubsection{Tune and Optical Resonances} % Part 1.2.7
+\subsubsection{Emittance} % Part 1.2.6
 
 To complete
 
-\subsubsection{Chromaticity of Beam Optics and its Compesation} % Part 1.2.8
+\subsubsection{Tune} % Part 1.2.7
 
 To complete
 
-\subsection{Summary} % Part 1.3
+% \subsubsection{Chromaticity of Beam Optics and its Compesation} % Part 1.2.8
 
-To complete
+% To complete
 
 
   

@@ -1,0 +1,30 @@
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{1}{section.14}%
+\contentsline {section}{\numberline {2}Introduction to particle accelerators}{2}{section.15}%
+\contentsline {subsection}{\numberline {2.1}How Particle Accelerators Work}{2}{subsection.16}%
+\contentsline {subsection}{\numberline {2.2}Particle-Beam Dynamics}{2}{subsection.17}%
+\contentsline {subsubsection}{\numberline {2.2.1}Charged Particles in an Electromagnetic Field}{2}{subsubsection.18}%
+\contentsline {subsubsection}{\numberline {2.2.2}Equation of Motion}{3}{subsubsection.24}%
+\contentsline {subsubsection}{\numberline {2.2.3}Particle Trajectories and Transfer Matrices}{3}{subsubsection.25}%
+\contentsline {subsubsection}{\numberline {2.2.4}Beta Function and Betatron Oscillation}{3}{subsubsection.26}%
+\contentsline {subsubsection}{\numberline {2.2.5}Emittance}{3}{subsubsection.27}%
+\contentsline {subsubsection}{\numberline {2.2.6}Tune}{3}{subsubsection.28}%
+\contentsline {section}{\numberline {3}Problem Specifications}{4}{section.29}%
+\contentsline {subsection}{\numberline {3.1}Orbit correction}{4}{subsection.30}%
+\contentsline {subsubsection}{\numberline {3.1.1}Instruments of Monitoring and Correction}{4}{subsubsection.31}%
+\contentsline {subsubsection}{\numberline {3.1.2}Methods}{4}{subsubsection.34}%
+\contentsline {subsection}{\numberline {3.2}System description}{4}{subsection.35}%
+\contentsline {subsection}{\numberline {3.3}Orbit Response Matrix}{5}{subsection.38}%
+\contentsline {subsection}{\numberline {3.4}ORM inversion}{6}{subsection.43}%
+\contentsline {subsection}{\numberline {3.5}Controller}{6}{subsection.44}%
+\contentsline {subsubsection}{\numberline {3.5.1}Weighted SVD controller}{6}{subsubsection.45}%
+\contentsline {subsubsection}{\numberline {3.5.2}Correction}{8}{subsubsection.48}%
+\contentsline {section}{\numberline {4}System and Correction Simulation}{9}{section.49}%
+\contentsline {subsection}{\numberline {4.1}Modelling of Ground Effects}{9}{subsection.50}%
+\contentsline {subsection}{\numberline {4.2}Theorical Background}{9}{subsection.55}%
+\contentsline {subsection}{\numberline {4.3}Simulation Model}{9}{subsection.56}%
+\contentsline {subsection}{\numberline {4.4}Simulation Results}{9}{subsection.57}%
+\contentsline {subsection}{\numberline {4.5}Robust Stability Analysis}{9}{subsection.58}%
+\contentsline {subsection}{\numberline {4.6}pyAT}{9}{subsection.59}%
+\contentsline {section}{\numberline {5}Conclusion and Outlook}{11}{section.60}%

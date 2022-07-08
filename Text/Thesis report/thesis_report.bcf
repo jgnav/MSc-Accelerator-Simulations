@@ -2363,6 +2363,31 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">ics.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="2">
+    <bcf:citekey order="1">holzer2014</bcf:citekey>
+    <bcf:citekey order="2">wille2000physics</bcf:citekey>
+    <bcf:citekey order="3">klute2011petra</bcf:citekey>
+    <bcf:citekey order="4">forck2009beam</bcf:citekey>
+    <bcf:citekey order="5">gaupp1988beam</bcf:citekey>
+    <bcf:citekey order="6">fasthori26</bcf:citekey>
+    <bcf:citekey order="7">white1997hybrid</bcf:citekey>
+    <bcf:citekey order="8">chiu2008conceptual</bcf:citekey>
+    <bcf:citekey order="9">klute2011petra</bcf:citekey>
+    <bcf:citekey order="10">Welcomet22:online</bcf:citekey>
+    <bcf:citekey order="11">leon2006linear</bcf:citekey>
+    <bcf:citekey order="12">pillow2018Statistical</bcf:citekey>
+    <bcf:citekey order="13">montag1999simulation</bcf:citekey>
+    <bcf:citekey order="14">holzer2014</bcf:citekey>
+    <bcf:citekey order="15">wille2000physics</bcf:citekey>
+    <bcf:citekey order="16">klute2011petra</bcf:citekey>
+    <bcf:citekey order="17">forck2009beam</bcf:citekey>
+    <bcf:citekey order="18">gaupp1988beam</bcf:citekey>
+    <bcf:citekey order="19">fasthori26</bcf:citekey>
+    <bcf:citekey order="20">white1997hybrid</bcf:citekey>
+    <bcf:citekey order="21">chiu2008conceptual</bcf:citekey>
+    <bcf:citekey order="22">Welcomet22:online</bcf:citekey>
+    <bcf:citekey order="23">leon2006linear</bcf:citekey>
+    <bcf:citekey order="24">pillow2018Statistical</bcf:citekey>
+    <bcf:citekey order="25">montag1999simulation</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

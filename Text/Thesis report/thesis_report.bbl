@@ -16,5 +16,388 @@
   {}
 \endgroup
 
+
+\refsection{2}
+  \datalist[entry]{none/global//global/global}
+    \entry{holzer2014}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5c77fcb52e42487297f5f58de63cf25d}{%
+           family={Holzer},
+           familyi={H\bibinitperiod},
+           given={BJ},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {CERN}%
+      }
+      \strng{namehash}{5c77fcb52e42487297f5f58de63cf25d}
+      \strng{fullhash}{5c77fcb52e42487297f5f58de63cf25d}
+      \strng{bibnamehash}{5c77fcb52e42487297f5f58de63cf25d}
+      \strng{authorbibnamehash}{5c77fcb52e42487297f5f58de63cf25d}
+      \strng{authornamehash}{5c77fcb52e42487297f5f58de63cf25d}
+      \strng{authorfullhash}{5c77fcb52e42487297f5f58de63cf25d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lattice Design in High-energy Particle Accelerators}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.5170/CERN-2014-009.61
+      \endverb
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/1982419
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/1982419
+      \endverb
+      \keyw{Accelerators and Storage Rings}
+    \endentry
+    \entry{wille2000physics}{book}{}
+      \name{author}{2}{}{%
+        {{hash=ccfb3094596071952f6b9a7298d2a3a0}{%
+           family={Wille},
+           familyi={W\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=fa119b6c242ec21b7ef55d23b38376f3}{%
+           family={McFall},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{2524006deadf945382d2f61f4b97f0b0}
+      \strng{fullhash}{2524006deadf945382d2f61f4b97f0b0}
+      \strng{bibnamehash}{2524006deadf945382d2f61f4b97f0b0}
+      \strng{authorbibnamehash}{2524006deadf945382d2f61f4b97f0b0}
+      \strng{authornamehash}{2524006deadf945382d2f61f4b97f0b0}
+      \strng{authorfullhash}{2524006deadf945382d2f61f4b97f0b0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Physics of Particle Accelerators: An Introduction}
+      \field{year}{2000}
+    \endentry
+    \entry{klute2011petra}{article}{}
+      \name{author}{5}{}{%
+        {{hash=7c2c59d078118c1919611957a60c5a7c}{%
+           family={Klute},
+           familyi={K\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d8589b2fef6f6b17c345b2c1559ca665}{%
+           family={Duhme},
+           familyi={D\bibinitperiod},
+           given={HT},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1637056c637e6f4c29536df128abd570}{%
+           family={Balewski},
+           familyi={B\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c47a6fcb4a7f6579f7b49f0f7b55fa10}{%
+           family={Tiessen},
+           familyi={T\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6081f96516ee20a2b3575823b08c7b5d}{%
+           family={Wierzcholek},
+           familyi={W\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3c10c740d67b242ba3a4f80bded3875}
+      \strng{fullhash}{6f64be9f3091bb1bd0b1879300636270}
+      \strng{bibnamehash}{6f64be9f3091bb1bd0b1879300636270}
+      \strng{authorbibnamehash}{6f64be9f3091bb1bd0b1879300636270}
+      \strng{authornamehash}{a3c10c740d67b242ba3a4f80bded3875}
+      \strng{authorfullhash}{6f64be9f3091bb1bd0b1879300636270}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DIPAC ‘11, Hamburg, Germany}
+      \field{title}{The PETRA III Fast Orbit Feedback System}
+      \field{year}{2011}
+    \endentry
+    \entry{forck2009beam}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c211d6a2630d0b1305a32a588f5cb471}{%
+           family={Forck},
+           familyi={F\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=bef320bfe22e5af14b6e27362ec2b641}{%
+           family={Liakin},
+           familyi={L\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3b5423441874e6e1f0a4add45b3e452f}{%
+           family={Kowina},
+           familyi={K\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CERN}%
+      }
+      \strng{namehash}{3340e6e17ef04393adcd323c03ed5231}
+      \strng{fullhash}{3340e6e17ef04393adcd323c03ed5231}
+      \strng{bibnamehash}{3340e6e17ef04393adcd323c03ed5231}
+      \strng{authorbibnamehash}{3340e6e17ef04393adcd323c03ed5231}
+      \strng{authornamehash}{3340e6e17ef04393adcd323c03ed5231}
+      \strng{authorfullhash}{3340e6e17ef04393adcd323c03ed5231}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Beam position monitors}
+      \field{year}{2009}
+    \endentry
+    \entry{gaupp1988beam}{article}{}
+      \name{author}{2}{}{%
+        {{hash=de43f9cc3020fcd681175c92987a0e43}{%
+           family={Gaupp},
+           familyi={G\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=62bbba5235411986d0e39f2957a6eae9}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={FP},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{003fd33b84555608621f95f700980239}
+      \strng{fullhash}{003fd33b84555608621f95f700980239}
+      \strng{bibnamehash}{003fd33b84555608621f95f700980239}
+      \strng{authorbibnamehash}{003fd33b84555608621f95f700980239}
+      \strng{authornamehash}{003fd33b84555608621f95f700980239}
+      \strng{authorfullhash}{003fd33b84555608621f95f700980239}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Synchrotron Radiation News}
+      \field{number}{3}
+      \field{title}{Beam position monitors}
+      \field{volume}{1}
+      \field{year}{1988}
+      \field{pages}{27\bibrangedash 31}
+      \range{pages}{5}
+    \endentry
+    \entry{fasthori26}{misc}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{note}{(Accessed on 07/04/2022)}
+      \field{title}{Fast Horizontal and Vertical Correctors}
+      \verb{urlraw}
+      \verb https://www.desy.de/~sahoo/WebPage/fast%20correctors.htm
+      \endverb
+      \verb{url}
+      \verb https://www.desy.de/~sahoo/WebPage/fast%20correctors.htm
+      \endverb
+    \endentry
+    \entry{white1997hybrid}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=7f1fd426bc822c90e0aa3e46b46a2c7b}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=714b7fb955f80cded5cc4b22698bf2c6}{%
+           family={Himel},
+           familyi={H\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+        {{hash=93d7314c6e93757f54ad37e551c68f85}{%
+           family={Shoaee},
+           familyi={S\bibinitperiod},
+           given={Hamid},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{c196b8744e0b9c4f4cd9d3aa49be223c}
+      \strng{fullhash}{c196b8744e0b9c4f4cd9d3aa49be223c}
+      \strng{bibnamehash}{c196b8744e0b9c4f4cd9d3aa49be223c}
+      \strng{authorbibnamehash}{c196b8744e0b9c4f4cd9d3aa49be223c}
+      \strng{authornamehash}{c196b8744e0b9c4f4cd9d3aa49be223c}
+      \strng{authorfullhash}{c196b8744e0b9c4f4cd9d3aa49be223c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 1997 Particle Accelerator Conference (Cat. No. 97CH36167)}
+      \field{title}{A hybrid numerical method for orbit correction}
+      \field{volume}{2}
+      \field{year}{1997}
+      \field{pages}{2425\bibrangedash 2427}
+      \range{pages}{3}
+    \endentry
+    \entry{chiu2008conceptual}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=d9f499eb556c2d3e2d523018eba1b6d4}{%
+           family={Chiu},
+           familyi={C\bibinitperiod},
+           given={PC},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cbe61c7ac5de442906e95b0b379e631b}{%
+           family={Kuo},
+           familyi={K\bibinitperiod},
+           given={CH},
+           giveni={C\bibinitperiod}}}%
+        {{hash=10df17e91e505f9b382b727f6338933a}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jenny},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7b48ea9dbaa2e062f8de5dc4a0a47cea}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={KH},
+           giveni={K\bibinitperiod}}}%
+        {{hash=33f8458d0a71fe6025302c7296ae83d7}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={KT},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{465b77ddeea6778b51cdb66fd1b725c1}
+      \strng{fullhash}{e85eec80a104bc1148eeb8428e45112f}
+      \strng{bibnamehash}{e85eec80a104bc1148eeb8428e45112f}
+      \strng{authorbibnamehash}{e85eec80a104bc1148eeb8428e45112f}
+      \strng{authornamehash}{465b77ddeea6778b51cdb66fd1b725c1}
+      \strng{authorfullhash}{e85eec80a104bc1148eeb8428e45112f}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Conceptual Design and Performance Estimation of the TPS fast orbit feedback system}
+      \field{year}{2008}
+    \endentry
+    \entry{Welcomet22:online}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7dc598b1accccb3a82ce5f95895a8fe5}{%
+           family={ATcollab},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7dc598b1accccb3a82ce5f95895a8fe5}
+      \strng{fullhash}{7dc598b1accccb3a82ce5f95895a8fe5}
+      \strng{bibnamehash}{7dc598b1accccb3a82ce5f95895a8fe5}
+      \strng{authorbibnamehash}{7dc598b1accccb3a82ce5f95895a8fe5}
+      \strng{authornamehash}{7dc598b1accccb3a82ce5f95895a8fe5}
+      \strng{authorfullhash}{7dc598b1accccb3a82ce5f95895a8fe5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://atcollab.github.io/at/p/index.html}}
+      \field{note}{(Accessed on 07/03/2022)}
+      \field{title}{Welcome to pyAT's documentation! — Accelerator Toolbox documentation}
+    \endentry
+    \entry{leon2006linear}{book}{}
+      \name{author}{3}{}{%
+        {{hash=ed8f5bdb2eccf7f63b7a1dddf9799e5f}{%
+           family={Leon},
+           familyi={L\bibinitperiod},
+           given={Steven\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=11e4b09993fde51f461cc8581956bb73}{%
+           family={De\bibnamedelima Pillis},
+           familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Lisette},
+           giveni={L\bibinitperiod}}}%
+        {{hash=43dd7891e47a04525fc74756866d60a4}{%
+           family={De\bibnamedelima Pillis},
+           familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Lisette\bibnamedelima G},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Prentice Hall Upper Saddle River, NJ}%
+      }
+      \strng{namehash}{a3d61ac03d6e5418f3bc2e38307fb2e1}
+      \strng{fullhash}{a3d61ac03d6e5418f3bc2e38307fb2e1}
+      \strng{bibnamehash}{a3d61ac03d6e5418f3bc2e38307fb2e1}
+      \strng{authorbibnamehash}{a3d61ac03d6e5418f3bc2e38307fb2e1}
+      \strng{authornamehash}{a3d61ac03d6e5418f3bc2e38307fb2e1}
+      \strng{authorfullhash}{a3d61ac03d6e5418f3bc2e38307fb2e1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Linear algebra with applications}
+      \field{year}{2006}
+    \endentry
+    \entry{pillow2018Statistical}{book}{}
+      \name{author}{1}{}{%
+        {{hash=82279f6a1c78f76af4707358d7cea742}{%
+           family={Pillow},
+           familyi={P\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Princeton University}%
+      }
+      \strng{namehash}{82279f6a1c78f76af4707358d7cea742}
+      \strng{fullhash}{82279f6a1c78f76af4707358d7cea742}
+      \strng{bibnamehash}{82279f6a1c78f76af4707358d7cea742}
+      \strng{authorbibnamehash}{82279f6a1c78f76af4707358d7cea742}
+      \strng{authornamehash}{82279f6a1c78f76af4707358d7cea742}
+      \strng{authorfullhash}{82279f6a1c78f76af4707358d7cea742}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{Lecture 2 notes: SVD}
+      \field{title}{Statistical Modeling and Analysis of Neural Data}
+      \field{year}{2018}
+    \endentry
+    \entry{montag1999simulation}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=345ee4795677c5c5750d25dfaccd668a}{%
+           family={Montag},
+           familyi={M\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{345ee4795677c5c5750d25dfaccd668a}
+      \strng{fullhash}{345ee4795677c5c5750d25dfaccd668a}
+      \strng{bibnamehash}{345ee4795677c5c5750d25dfaccd668a}
+      \strng{authorbibnamehash}{345ee4795677c5c5750d25dfaccd668a}
+      \strng{authornamehash}{345ee4795677c5c5750d25dfaccd668a}
+      \strng{authorfullhash}{345ee4795677c5c5750d25dfaccd668a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 1999 Particle Accelerator Conference (Cat. No. 99CH36366)}
+      \field{title}{Simulation of ground motion induced proton beam orbit vibration in HERA}
+      \field{volume}{3}
+      \field{year}{1999}
+      \field{pages}{1566\bibrangedash 1568}
+      \range{pages}{3}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
